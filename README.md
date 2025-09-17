@@ -1,39 +1,39 @@
-# Gas Digital Twin – MATLAB Simscape
+# Liquid Flow Digital Twin – MATLAB Simscape
 
-This project is a **Digital Twin model of a gas system** built in **MATLAB Simscape**.  
-It simulates the **flow and pressure dynamics** across a tank–valve–reservoir network, enabling better insight into gas transportation and optimization.
+This project is a **Digital Twin prototype** built in **MATLAB Simscape (Thermal Liquid domain)**.  
+It focuses on simulating the **liquid-side dynamics** of a tank–valve–reservoir system, measuring flow rates and pressure changes in response to valve control.  
 
 ---
 
 ## 🚀 Project Overview
 The model represents:
-- **Gas Tank** – storage and supply source  
-- **Control Valve** – regulating flow and pressure  
-- **Reservoir** – receiving and balancing system  
+- **Liquid Tank** – stores and supplies fluid  
+- **Control Valve (Poppet)** – regulates the flow rate  
+- **Reservoirs** – simulate inflow and outflow conditions  
 
-By adjusting valve parameters and tank pressure, the digital twin mirrors how real-world systems behave under different conditions.  
+The simulation tracks **flow rate, pressure response, and system stability** over time, forming the foundation for more complex Digital Twin applications.  
 
 ---
 
 ## 🎯 Key Features
-- Dynamic simulation of gas flow rates and pressure drops  
-- Visualization of system response in different operating scenarios  
-- Built on **MATLAB Simscape** for high-fidelity physics-based modeling  
-- Scalable foundation for **pipeline network and LNG process optimization**
+- Built using **Simscape Thermal Liquid blocks**  
+- Simulates **flow rate control** through a valve  
+- Scope output showing **system stabilization at steady state**  
+- Flexible: can be extended to include **gas phase, compressors, or multiphase separation**  
 
 ---
 
 ## 📈 Benefits & Impact
-- Supports **decision-making** in gas operations  
-- Provides **predictive insights** into pressure and flow bottlenecks  
-- Contributes to **digitalization in energy infrastructure**  
-- Useful for training, research, and operational analysis  
+- Provides insight into **liquid flow behavior** under valve control  
+- Trains engineers in **digital twin concepts** for petroleum engineering  
+- Can be scaled to represent **oil, water, or condensate flow in pipelines**  
+- Lays the groundwork for full **oil & gas digital twin systems**  
 
 ---
 
 ## 📂 Files Included
-- `GasDigitalTwin.slx` → MATLAB Simscape model  
-- `results.png` → Simulation results snapshot  
+- `Draxiscoming.slx` → MATLAB Simscape liquid flow model  
+- `screenshot.png` → Simulation result (Scope output)  
 - `README.md` → Documentation  
 
 ---
@@ -45,11 +45,10 @@ By adjusting valve parameters and tank pressure, the digital twin mirrors how re
 ---
 
 ## 🌍 Applications
-- Gas transportation and storage optimization  
-- Pipeline operations training  
-- LNG process design and monitoring  
-- Foundation for advanced **Digital Twin** solutions in oil & gas  
-
+- Flow assurance studies (liquid phase)  
+- Training in **digital twin modeling** for petroleum engineering  
+- Foundation for **gas digital twin** development  
+- Early-stage research for oilfield digitalization  
 ---
 
 ## 📢 Author
